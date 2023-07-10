@@ -20,7 +20,7 @@
                 <a class="nav-link" href="{{ route('dashboard') }}">Dashboard</a>
             </li>
             <li class="nav-item px-3">
-                <a class="nav-link" href="#">Post</a>
+                <a class="nav-link" href="{{ route('posts') }}">Post</a>
             </li>
         </ul>
 
