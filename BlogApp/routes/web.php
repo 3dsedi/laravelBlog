@@ -31,6 +31,8 @@ Route::post('/login',[LoginController::class, 'store']);
 
 
 Route::get('/posts',[PostsController::class, 'index'])->name('posts');
+Route::post('/posts',[PostsController::class, 'store']);
+
 Route::get('/', function () {
     return view('home');
 })->name('home');
